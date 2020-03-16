@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input range</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>Settings Page:</p>
+
+    <div >
+
+            <h1 id="p1">Titre de test</h1>
+
+        <table border="1">
+            <tr>
+                <td>background</td>
+                <td>
+     <p>0<input type="range" min="0" max="255" step=5 name='color' oninput='update(this)' value="0">255</p>
+   </td>
+            </tr>
+            <tr>
+                <td>padding</td>
+                <td>
+     <p>0<input type="range" name="padding" min="0" max="30" step=5 oninput='update(this)' value="0">30</p>
+   </td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>
+     <p>0<input type="range" min="0" max="200" name="height" step=50 value="0" oninput='update(this)'>200</p>
+   </td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>
+     <p>0<input type="range" min="0" max="200" name="width" step=50 value="0" oninput='update(this)'>200</p>
+   </td>
+            </tr>
+            <tr>
+                <td>arrondi</td>
+                <td>
+     <p>0<input type="range" min="0" max="30" name="radius" step=5 value="0" oninput='update(this)'>30</p>
+   </td>
+            </tr>
+            <tr>
+                <td>rotation</td>
+                <td>
+     <p>0<input type="range" min="0" max="180" name="rotation" step=5 value="0" oninput='update(this)'>180</p>
+   </td>
+            </tr>
+            
+        </table>
+          
+    </div>
+
+</body>
+</html>

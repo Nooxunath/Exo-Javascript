@@ -1,0 +1,7 @@
+.active
+{
+    color: white;
+    background-color: tomato;
+    border: 2px solid black;
+    padding: 5px;
+}
